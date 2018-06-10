@@ -2,8 +2,6 @@ class Triangle
 
 
 def kind
-
-
   if all sides are equal &&
     return :equilateral
   elsif two sides are equilateral
