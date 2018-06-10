@@ -15,5 +15,5 @@ def kind
   else
     "invalid"
   end
-end
+ end
 end
