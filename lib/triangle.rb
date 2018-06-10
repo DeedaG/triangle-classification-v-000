@@ -2,7 +2,7 @@ class Triangle
 
 
 def kind
-if two sides >  third side && each side > 0.
+
 
   if all sides are equal &&
     return :equilateral
@@ -10,7 +10,10 @@ if two sides >  third side && each side > 0.
     return :isosceles
   elsif no sides are equil
     return :scalene
-
+  elsif two sides > third side && each side > 0
+    "valid"
+  else
+    "invalid"
   end
 
 end
