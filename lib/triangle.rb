@@ -1,10 +1,10 @@
 class Triangle
 
 def initialize(side1, side2, side3)
-  @side1
-  @side2
-  @side3
-  @shape = {}
+  @sides
+  @sides << side1
+  @sides << side2
+  @sides << side3
 end
 
 
