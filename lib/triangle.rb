@@ -1,6 +1,14 @@
 class Triangle
 
 def initialize(:equilateral, :isosceles, :scalene)
+  :equilateral
+
+:isosceles
+
+:scalene
+
+end
+
 
 def kind
   if all sides are equal &&
