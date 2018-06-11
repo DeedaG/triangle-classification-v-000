@@ -1,7 +1,7 @@
 class Triangle
 
 def initialize(side1, side2, side3)
-  @sides
+  @sides = []
   @sides << side1
   @sides << side2
   @sides << side3
