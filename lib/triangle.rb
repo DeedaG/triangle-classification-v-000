@@ -18,7 +18,9 @@ def kind
   end
 end
 
-  elsif two sides > third side && each side > 0
+
+def valid?
+  if two sides > third side && each side > 0
     "valid"
   else
    raise TriangleError
