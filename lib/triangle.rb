@@ -4,12 +4,12 @@ def initialize(equilateral, isosceles, scalene)
   @equilateral = equilateral
   @isosceles = isosceles
   @scalene = scalene
-  @sides = []
+  
 end
 
 
 def kind
-  if all sides are equal
+  if sides.values
     return :equilateral
   elsif two sides are equilateral
     return :isosceles
@@ -18,7 +18,7 @@ def kind
   elsif two sides > third side && each side > 0
     "valid"
   else
-    "invalid"
+   raise TriangleError
   end
  end
 
