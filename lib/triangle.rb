@@ -9,9 +9,9 @@ end
 
 
 def kind
-  if @sides.length.equal?(@sides.length) == true
+  if side1 == side2 ==side3
     return :equilateral
-  elsif @sides.include?
+  elsif side1 == side2 || side2 == side3 || side1 == side3
     return :isosceles
   elsif no sides are equil
     return :scalene
