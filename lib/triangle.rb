@@ -4,7 +4,7 @@ def initialize(equilateral, isosceles, scalene)
   @equilateral = equilateral
   @isosceles = isosceles
   @scalene = scalene
-
+  @sides = sides
 end
 
 
@@ -21,5 +21,5 @@ def kind
     "invalid"
   end
  end
- 
+
 end
