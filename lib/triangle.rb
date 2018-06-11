@@ -9,7 +9,7 @@ end
 
 
 def kind
-  if all sides are equal
+  if @sides[0] == @sides[1] == @sides[2]
     return :equilateral
   elsif two sides are equilateral
     return :isosceles
