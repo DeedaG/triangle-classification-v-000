@@ -1,15 +1,15 @@
 class Triangle
 
-def initialize(equilateral, isosceles, scalene)
-  @equilateral = equilateral
-  @isosceles = isosceles
-  @scalene = scalene
+def initialize(side1, side2, side3)
+  @side1
+  @side2
+  @side3
   @shape = {}
 end
 
 
 def kind
-  if @shape[key][value] == [value]
+  if all sides are equal
     return :equilateral
   elsif two sides are equilateral
     return :isosceles
