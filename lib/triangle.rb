@@ -27,11 +27,4 @@ def kind
     return :scalene
   end
 end
-
-
-
-
-  end
- end
-
 end
