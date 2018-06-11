@@ -4,12 +4,12 @@ def initialize(equilateral, isosceles, scalene)
   @equilateral = equilateral
   @isosceles = isosceles
   @scalene = scalene
-
+  @shape = {}
 end
 
 
 def kind
-  if sides.values
+  if @shape[key][value] == [value]
     return :equilateral
   elsif two sides are equilateral
     return :isosceles
